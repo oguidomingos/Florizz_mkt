@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@theme {
+  --color-verde-botanico: #0E4F3D;
+  --color-verde-dark: #0a3d2e;
+  --color-sage: #A7C4B5;
+  --color-champagne: #F4EDE0;
+  --color-champagne-dark: #e8dcc8;
+  --color-grafite: #2F2F2F;
+  --color-branco: #FFFFFF;
+
+  --font-playfair: 'Playfair Display', Georgia, serif;
+  --font-montserrat: 'Montserrat', system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-montserrat);
+  color: var(--color-grafite);
+  background: var(--color-champagne);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.font-playfair {
+  font-family: var(--font-playfair);
+}
+
+.font-montserrat {
+  font-family: var(--font-montserrat);
+}
+
+/* Scroll animation */
+.fade-section {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.fade-section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-champagne);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-sage);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-verde-botanico);
+}
