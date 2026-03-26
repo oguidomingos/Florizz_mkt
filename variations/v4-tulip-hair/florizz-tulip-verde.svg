@@ -1,0 +1,118 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" width="400" height="600">
+  <defs>
+    <style>
+      .petal { fill: #0E4F3D; }
+      .leaf { fill: #0E4F3D; }
+      .stem { stroke: #0E4F3D; fill: none; stroke-width: 5; stroke-linecap: round; }
+    </style>
+  </defs>
+
+  <!-- Center petal (tallest) -->
+  <path class="petal" d="
+    M 200 30
+    C 170 30, 145 80, 140 130
+    C 135 175, 145 210, 165 235
+    C 175 248, 188 255, 200 258
+    C 212 255, 225 248, 235 235
+    C 255 210, 265 175, 260 130
+    C 255 80, 230 30, 200 30
+    Z
+  "/>
+
+  <!-- Left petal -->
+  <path class="petal" d="
+    M 175 70
+    C 150 65, 115 85, 100 120
+    C 85 155, 90 195, 110 225
+    C 125 248, 148 258, 170 260
+    C 165 240, 155 210, 148 180
+    C 140 145, 150 100, 175 70
+    Z
+  " opacity="0.85"/>
+
+  <!-- Right petal -->
+  <path class="petal" d="
+    M 225 70
+    C 250 65, 285 85, 300 120
+    C 315 155, 310 195, 290 225
+    C 275 248, 252 258, 230 260
+    C 235 240, 245 210, 252 180
+    C 260 145, 250 100, 225 70
+    Z
+  " opacity="0.85"/>
+
+  <!-- Inner petal detail (lighter center highlight) -->
+  <path d="
+    M 200 80
+    C 188 80, 175 110, 172 145
+    C 170 175, 178 210, 192 235
+    C 196 242, 198 245, 200 248
+    C 202 245, 204 242, 208 235
+    C 222 210, 230 175, 228 145
+    C 225 110, 212 80, 200 80
+    Z
+  " fill="#0E4F3D" opacity="0.3"/>
+
+  <!-- Hair strand stem (elegant S-curve with waves) -->
+  <path class="stem" d="
+    M 200 258
+    C 200 275, 208 290, 212 310
+    C 218 340, 195 360, 190 385
+    C 185 410, 210 430, 215 455
+    C 220 480, 195 500, 192 525
+    C 189 545, 200 555, 205 570
+  "/>
+
+  <!-- Second hair strand (thinner, parallel) -->
+  <path d="
+    M 198 260
+    C 196 278, 202 295, 205 315
+    C 210 345, 188 365, 184 388
+    C 180 412, 204 435, 208 458
+    C 213 482, 190 502, 188 528
+    C 186 548, 196 558, 200 572
+  " stroke="#0E4F3D" fill="none" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Third hair strand (finest) -->
+  <path d="
+    M 203 262
+    C 205 280, 215 295, 218 312
+    C 222 340, 200 358, 196 382
+    C 192 408, 216 428, 220 452
+    C 225 478, 200 498, 197 522
+    C 194 542, 204 555, 208 568
+  " stroke="#0E4F3D" fill="none" stroke-width="1.5" stroke-linecap="round" opacity="0.35"/>
+
+  <!-- Left leaf -->
+  <path class="leaf" d="
+    M 192 385
+    C 180 375, 140 355, 110 365
+    C 80 375, 70 400, 85 415
+    C 95 425, 130 420, 155 410
+    C 170 403, 185 393, 192 385
+    Z
+  " opacity="0.9"/>
+
+  <!-- Left leaf vein -->
+  <path d="
+    M 190 387
+    C 170 382, 135 378, 100 390
+  " stroke="#0E4F3D" fill="none" stroke-width="1.5" opacity="0.3"/>
+
+  <!-- Right leaf -->
+  <path class="leaf" d="
+    M 212 450
+    C 225 440, 265 425, 295 438
+    C 325 450, 330 475, 315 488
+    C 305 496, 270 490, 245 478
+    C 228 468, 218 458, 212 450
+    Z
+  " opacity="0.9"/>
+
+  <!-- Right leaf vein -->
+  <path d="
+    M 214 452
+    C 235 448, 270 447, 305 462
+  " stroke="#0E4F3D" fill="none" stroke-width="1.5" opacity="0.3"/>
+</svg>
