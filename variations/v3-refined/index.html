@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Florizz — Logo v3 Refined (Tulipa + Fio Capilar)</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: #FAFAF8;
+      color: #2F2F2F;
+      line-height: 1.6;
+    }
+    .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+
+    /* Hero */
+    .hero {
+      background: #0E4F3D;
+      color: #F4EDE0;
+      padding: 80px 0 60px;
+      text-align: center;
+    }
+    .hero h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 48px;
+      font-weight: 700;
+      margin-bottom: 12px;
+    }
+    .hero p {
+      font-size: 18px;
+      font-weight: 300;
+      opacity: 0.8;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .hero .badge {
+      display: inline-block;
+      background: rgba(244,237,224,0.15);
+      border: 1px solid rgba(244,237,224,0.3);
+      border-radius: 100px;
+      padding: 6px 20px;
+      font-size: 13px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+
+    /* Section */
+    .section {
+      padding: 60px 0;
+      border-bottom: 1px solid #E8E5E0;
+    }
+    .section:last-child { border-bottom: none; }
+    .section h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 32px;
+      margin-bottom: 8px;
+    }
+    .section .subtitle {
+      font-size: 15px;
+      color: #888;
+      margin-bottom: 36px;
+    }
+
+    /* Grid */
+    .grid {
+      display: grid;
+      gap: 24px;
+    }
+    .grid-2 { grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); }
+    .grid-3 { grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); }
+    .grid-4 { grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); }
+
+    /* Card */
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    }
+    .card-img {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      min-height: 200px;
+    }
+    .card-img img {
+      max-width: 100%;
+      max-height: 300px;
+      object-fit: contain;
+    }
+    .card-img.dark { background: #0E4F3D; }
+    .card-img.grafite-bg { background: #2F2F2F; }
+    .card-label {
+      padding: 12px 16px;
+      font-size: 13px;
+      font-weight: 500;
+      color: #666;
+      border-top: 1px solid #f0f0f0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .card-label .color-dot {
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      border: 1px solid #ddd;
+    }
+
+    /* Color palette */
+    .palette {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin-bottom: 40px;
+    }
+    .swatch {
+      width: 80px;
+      height: 80px;
+      border-radius: 12px;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      padding-bottom: 6px;
+      font-size: 11px;
+      font-weight: 500;
+      color: #fff;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+    }
+
+    @media (max-width: 600px) {
+      .grid-2, .grid-3 { grid-template-columns: 1fr; }
+      .grid-4 { grid-template-columns: repeat(2, 1fr); }
+      .hero h1 { font-size: 32px; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="hero">
+    <div class="container">
+      <div class="badge">v3 — Refined</div>
+      <h1>Florizz Hair & Scalp Clinic</h1>
+      <p>Logo redesign — Tulipa vetorizada com fio capilar estilizado no caule. Linha minimalista, elegante, premium.</p>
+    </div>
+  </div>
+
+  <!-- Color Palette -->
+  <div class="section">
+    <div class="container">
+      <h2>Paleta de Cores</h2>
+      <p class="subtitle">7 variações de cor para diferentes aplicações</p>
+      <div class="palette">
+        <div class="swatch" style="background:#0E4F3D">#0E4F3D<br>Verde</div>
+        <div class="swatch" style="background:#A7C4B5; color:#2F2F2F">#A7C4B5<br>Sage</div>
+        <div class="swatch" style="background:#F4EDE0; color:#2F2F2F; border:1px solid #ddd">#F4EDE0<br>Champagne</div>
+        <div class="swatch" style="background:#2F2F2F">#2F2F2F<br>Grafite</div>
+        <div class="swatch" style="background:#646E57">#646E57<br>Oliva</div>
+        <div class="swatch" style="background:#000000">#000000<br>Preto</div>
+        <div class="swatch" style="background:#FFFFFF; color:#2F2F2F; border:1px solid #ddd">#FFFFFF<br>Branco</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Stacked Layout -->
+  <div class="section">
+    <div class="container">
+      <h2>Layout Principal (Stacked)</h2>
+      <p class="subtitle">Tulipa + FLORIZZ + HAIR & SCALP CLINIC</p>
+      <div class="grid grid-2">
+        <div class="card">
+          <div class="card-img"><img src="florizz-stacked-verde-botanico.png" alt="Stacked verde"></div>
+          <div class="card-label">Verde Botânico / Fundo Branco <span class="color-dot" style="background:#0E4F3D"></span></div>
+        </div>
+        <div class="card">
+          <div class="card-img dark"><img src="florizz-stacked-champagne.png" alt="Stacked champagne"></div>
+          <div class="card-label">Champagne / Fundo Verde <span class="color-dot" style="background:#F4EDE0"></span></div>
+        </div>
+        <div class="card">
+          <div class="card-img"><img src="florizz-stacked-grafite.png" alt="Stacked grafite"></div>
+          <div class="card-label">Grafite / Fundo Branco <span class="color-dot" style="background:#2F2F2F"></span></div>
+        </div>
+        <div class="card">
+          <div class="card-img dark"><img src="florizz-stacked-branco.png" alt="Stacked branco"></div>
+          <div class="card-label">Branco / Fundo Verde <span class="color-dot" style="background:#FFFFFF"></span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Horizontal Layout -->
+  <div class="section">
+    <div class="container">
+      <h2>Layout Horizontal</h2>
+      <p class="subtitle">Ideal para headers, assinaturas de email, banners</p>
+      <div class="grid grid-2">
+        <div class="card">
+          <div class="card-img"><img src="florizz-horizontal-verde-botanico.png" alt="Horizontal verde"></div>
+          <div class="card-label">Verde Botânico <span class="color-dot" style="background:#0E4F3D"></span></div>
+        </div>
+        <div class="card">
+          <div class="card-img dark"><img src="florizz-horizontal-champagne.png" alt="Horizontal champagne"></div>
+          <div class="card-label">Champagne <span class="color-dot" style="background:#F4EDE0"></span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Symbol Only -->
+  <div class="section">
+    <div class="container">
+      <h2>Símbolo (Tulipa Completa)</h2>
+      <p class="subtitle">Tulipa com fio capilar + folhas — sem texto</p>
+      <div class="grid grid-3">
+        <div class="card">
+          <div class="card-img"><img src="florizz-symbol-verde-botanico.png" alt="Symbol verde"></div>
+          <div class="card-label">Verde Botânico <span class="color-dot" style="background:#0E4F3D"></span></div>
+        </div>
+        <div class="card">
+          <div class="card-img"><img src="florizz-symbol-sage.png" alt="Symbol sage"></div>
+          <div class="card-label">Sage <span class="color-dot" style="background:#A7C4B5"></span></div>
+        </div>
+        <div class="card">
+          <div class="card-img dark"><img src="florizz-symbol-champagne.png" alt="Symbol champagne"></div>
+          <div class="card-label">Champagne <span class="color-dot" style="background:#F4EDE0"></span></div>
+        </div>
+        <div class="card">
+          <div class="card-img"><img src="florizz-symbol-grafite.png" alt="Symbol grafite"></div>
+          <div class="card-label">Grafite <span class="color-dot" style="background:#2F2F2F"></span></div>
+        </div>
+        <div class="card">
+          <div class="card-img"><img src="florizz-symbol-oliva.png" alt="Symbol oliva"></div>
+          <div class="card-label">Oliva <span class="color-dot" style="background:#646E57"></span></div>
+        </div>
+        <div class="card">
+          <div class="card-img"><img src="florizz-symbol-preto.png" alt="Symbol preto"></div>
+          <div class="card-label">P&B <span class="color-dot" style="background:#000000"></span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Icon -->
+  <div class="section">
+    <div class="container">
+      <h2>Ícone (Favicon / Perfil)</h2>
+      <p class="subtitle">Apenas a flor da tulipa — uso em avatars, favicons, watermarks</p>
+      <div class="grid grid-4">
+        <div class="card">
+          <div class="card-img"><img src="florizz-icon-verde-botanico.png" alt="Icon verde" style="max-height:120px"></div>
+          <div class="card-label">Verde <span class="color-dot" style="background:#0E4F3D"></span></div>
+        </div>
+        <div class="card">
+          <div class="card-img"><img src="florizz-icon-sage.png" alt="Icon sage" style="max-height:120px"></div>
+          <div class="card-label">Sage <span class="color-dot" style="background:#A7C4B5"></span></div>
+        </div>
+        <div class="card">
+          <div class="card-img dark"><img src="florizz-icon-champagne.png" alt="Icon champagne" style="max-height:120px"></div>
+          <div class="card-label">Champagne <span class="color-dot" style="background:#F4EDE0"></span></div>
+        </div>
+        <div class="card">
+          <div class="card-img"><img src="florizz-icon-grafite.png" alt="Icon grafite" style="max-height:120px"></div>
+          <div class="card-label">Grafite <span class="color-dot" style="background:#2F2F2F"></span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div style="background:#0E4F3D; color:#F4EDE0; padding:40px 0; text-align:center; font-size:14px; opacity:0.7;">
+    <p>Florizz Hair & Scalp Clinic — Logo v3 Refined</p>
+    <p style="margin-top:8px">Tulipa vetorizada + fio capilar estilizado | 7 cores &times; 4 layouts = 31 arquivos</p>
+  </div>
+
+</body>
+</html>
