@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Florizz Logo v2 — Tulipa com Fio Capilar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: #f8f5f0;
+      color: #2F2F2F;
+      padding: 40px 20px;
+    }
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5rem;
+      color: #0E4F3D;
+      text-align: center;
+      margin-bottom: 8px;
+    }
+    .subtitle {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #646E57;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      margin-bottom: 40px;
+    }
+    .section {
+      max-width: 1200px;
+      margin: 0 auto 60px;
+    }
+    .section h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.5rem;
+      color: #0E4F3D;
+      margin-bottom: 20px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid #A7C4B5;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 24px;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+      transition: transform 0.2s;
+    }
+    .card:hover { transform: translateY(-4px); }
+    .card img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .card .label {
+      padding: 12px 16px;
+      font-size: 0.8rem;
+      font-weight: 500;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: #646E57;
+    }
+    .wide-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+    .wide-card {
+      background: white;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+    }
+    .wide-card img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .wide-card .label {
+      padding: 12px 16px;
+      font-size: 0.8rem;
+      font-weight: 500;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: #646E57;
+    }
+    .concept {
+      max-width: 800px;
+      margin: 0 auto 50px;
+      text-align: center;
+    }
+    .concept p {
+      font-size: 1rem;
+      line-height: 1.8;
+      color: #444;
+    }
+    .palette {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+    .swatch {
+      width: 60px;
+      height: 60px;
+      border-radius: 8px;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      padding-bottom: 4px;
+      font-size: 0.55rem;
+      color: white;
+      text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+      border: 1px solid rgba(0,0,0,0.1);
+    }
+    .download-btn {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 12px 28px;
+      background: #0E4F3D;
+      color: #F4EDE0;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 0.85rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      font-weight: 500;
+      transition: background 0.2s;
+    }
+    .download-btn:hover { background: #0a3a2c; }
+  </style>
+</head>
+<body>
+
+  <h1>Florizz Logo v2</h1>
+  <p class="subtitle">Tulipa com Fio Capilar no Caule</p>
+
+  <div class="concept">
+    <p>
+      Redesign da tulipa Florizz com o caule substituído por um fio de cabelo estilizado —
+      ondulado e elegante — que reforça a conexão da marca com o universo capilar.
+      A tulipa mantém a silhueta clássica com pétalas em forma de U, estame central
+      e duas folhas orgânicas, tudo em line-art minimalista.
+    </p>
+    <div class="palette">
+      <div class="swatch" style="background:#0E4F3D">Verde</div>
+      <div class="swatch" style="background:#A7C4B5">Sage</div>
+      <div class="swatch" style="background:#F4EDE0; color:#2F2F2F; text-shadow:none">Champagne</div>
+      <div class="swatch" style="background:#2F2F2F">Grafite</div>
+      <div class="swatch" style="background:#646E57">Oliva</div>
+      <div class="swatch" style="background:#000000">P&B</div>
+    </div>
+  </div>
+
+  <!-- SYMBOL VARIATIONS -->
+  <div class="section">
+    <h2>Simbolo — Variações de Cor</h2>
+    <div class="grid">
+      <div class="card"><img src="florizz-symbol-verde-botanico.png" alt="Verde Botânico"><div class="label">Verde Botânico</div></div>
+      <div class="card"><img src="florizz-symbol-sage.png" alt="Sage"><div class="label">Sage</div></div>
+      <div class="card"><img src="florizz-symbol-champagne.png" alt="Champagne"><div class="label">Champagne</div></div>
+      <div class="card"><img src="florizz-symbol-grafite.png" alt="Grafite"><div class="label">Grafite</div></div>
+      <div class="card"><img src="florizz-symbol-pb-dark.png" alt="P&B Dark"><div class="label">P&B (Fundo Claro)</div></div>
+      <div class="card"><img src="florizz-symbol-pb-light.png" alt="P&B Light"><div class="label">P&B (Fundo Escuro)</div></div>
+      <div class="card"><img src="florizz-symbol-branco.png" alt="Branco"><div class="label">Branco</div></div>
+    </div>
+  </div>
+
+  <!-- STACKED LOGO -->
+  <div class="section">
+    <h2>Logo Principal (Stacked) — Variações de Cor</h2>
+    <div class="grid">
+      <div class="card"><img src="florizz-logo-stacked-verde-botanico.png" alt="Stacked Verde"><div class="label">Verde Botânico</div></div>
+      <div class="card"><img src="florizz-logo-stacked-sage.png" alt="Stacked Sage"><div class="label">Sage</div></div>
+      <div class="card"><img src="florizz-logo-stacked-champagne.png" alt="Stacked Champagne"><div class="label">Champagne</div></div>
+      <div class="card"><img src="florizz-logo-stacked-grafite.png" alt="Stacked Grafite"><div class="label">Grafite</div></div>
+      <div class="card"><img src="florizz-logo-stacked-pb-dark.png" alt="Stacked P&B"><div class="label">P&B (Fundo Claro)</div></div>
+      <div class="card"><img src="florizz-logo-stacked-pb-light.png" alt="Stacked P&B Light"><div class="label">P&B (Fundo Escuro)</div></div>
+      <div class="card"><img src="florizz-logo-stacked-branco.png" alt="Stacked Branco"><div class="label">Branco</div></div>
+    </div>
+  </div>
+
+  <!-- LAYOUT VARIATIONS -->
+  <div class="section">
+    <h2>Variações de Layout</h2>
+    <div class="wide-grid">
+      <div class="wide-card"><img src="florizz-logo-stacked.png" alt="Stacked"><div class="label">Stacked (Principal)</div></div>
+      <div class="wide-card"><img src="florizz-logo-horizontal.png" alt="Horizontal"><div class="label">Horizontal</div></div>
+      <div class="wide-card"><img src="florizz-logo-inline.png" alt="Inline"><div class="label">Inline</div></div>
+      <div class="wide-card"><img src="florizz-logo-symbol.png" alt="Symbol"><div class="label">Simbolo (Solo)</div></div>
+      <div class="wide-card"><img src="florizz-logo-icon.png" alt="Icon"><div class="label">Icon</div></div>
+    </div>
+  </div>
+
+  <!-- SVG DOWNLOADS -->
+  <div class="section" style="text-align:center">
+    <h2>Arquivos SVG (Vetorial)</h2>
+    <p style="margin-bottom:20px; color:#646E57;">Clique para baixar os arquivos vetoriais editáveis</p>
+    <a href="florizz-tulip-symbol.svg" class="download-btn" download>Simbolo SVG</a>
+    <a href="florizz-logo-stacked.svg" class="download-btn" download>Stacked SVG</a>
+    <a href="florizz-logo-horizontal.svg" class="download-btn" download>Horizontal SVG</a>
+    <a href="florizz-logo-inline.svg" class="download-btn" download>Inline SVG</a>
+    <a href="florizz-logo-symbol.svg" class="download-btn" download>Symbol SVG</a>
+    <a href="florizz-logo-icon.svg" class="download-btn" download>Icon SVG</a>
+  </div>
+
+</body>
+</html>
