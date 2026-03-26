@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="110 25 180 540" width="540" height="1620">
+  
+  <g stroke="#0E4F3D" stroke-linecap="round" stroke-linejoin="round">
+    
+    <!-- TULIP BLOOM: open U-cup shape, wider at top with flared petals -->
+    <path d="M175,62
+             C168,78 155,105 150,135
+             C145,165 150,190 168,202
+             C180,210 190,212 200,212
+             C210,212 220,210 232,202
+             C250,190 255,165 250,135
+             C245,105 232,78 225,62"
+          fill="none" stroke-width="2.5" />
+
+    <!-- Left petal tip: flares outward then curls back -->
+    <path d="M175,62
+             C178,54 183,50 189,54
+             C193,57 194,64 192,72"
+          fill="none" stroke-width="2.5" />
+
+    <!-- Right petal tip: mirror -->
+    <path d="M225,62
+             C222,54 217,50 211,54
+             C207,57 206,64 208,72"
+          fill="none" stroke-width="2.5" />
+
+    <!-- INNER PETAL / STAMEN: elongated leaf shape between petals -->
+    <path d="M195,78
+             C196,62 198,45 200,32
+             C202,45 204,62 205,78
+             C205,90 203,100 200,105
+             C197,100 195,90 195,78 Z"
+          fill="none" stroke-width="2.5" />
+
+    <!-- WAVY HAIR STEM: elegant flowing S-curves like a single hair strand -->
+    <path d="M200,210
+             C201,235 209,260 206,285
+             C203,310 193,330 196,355
+             C199,380 210,400 207,425
+             C204,450 195,470 198,495
+             C200,515 200,535 200,550"
+          fill="none" stroke-width="2.5" />
+
+    <!-- LEFT LEAF: almond shape, attached at stem's leftward wave ~y350 -->
+    <path d="M196,350
+             C182,340 155,320 130,308
+             C155,302 178,310 192,328
+             C196,334 197,342 196,350 Z"
+          fill="none" stroke-width="2.5" />
+    <!-- Left leaf midrib -->
+    <path d="M196,350 C175,333 150,316 133,308"
+          fill="none" stroke-width="1.375" />
+
+    <!-- RIGHT LEAF: almond shape, attached at stem's rightward wave ~y420 -->
+    <path d="M207,420
+             C221,410 248,392 273,380
+             C248,374 225,382 211,400
+             C207,406 206,414 207,420 Z"
+          fill="none" stroke-width="2.5" />
+    <!-- Right leaf midrib -->
+    <path d="M207,420 C228,404 253,388 270,380"
+          fill="none" stroke-width="1.375" />
+  
+  </g>
+</svg>
